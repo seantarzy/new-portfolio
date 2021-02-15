@@ -19,7 +19,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'linkedInPhoto.png',
   paragraphOne:
     'Sean Tarzy is a software engineer with a knack for problem solving and creativity.',
   paragraphTwo: 'Languages: Javascript, Ruby, SQL, HTML5, CSS3',
