@@ -1,6 +1,5 @@
 import { nanoid } from 'nanoid';
 
-// import project1Image from '../images/project1.png';
 
 // HEAD DATA
 export const headData = {
