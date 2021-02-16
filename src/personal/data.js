@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
-
+import React from 'react'
+import Resume from '../components/About/Resume';
 
 // HEAD DATA
 export const headData = {
@@ -24,7 +25,7 @@ export const aboutData = {
   paragraphTwo: 'Languages: Javascript, Ruby, SQL, HTML5, CSS3',
   paragraphThree: 'Education: Binghamton University, Flatiron School',
   paragraphFour: 'Hobbies: Baseball, Movies, Bass Guitar, Science-Fiction',
-  resume: '../../Sean_Tarzy_Resume.pdf', // if no resume, the button will not show up
+  resume: <Resume/>, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
