@@ -8,7 +8,7 @@ import ResumePdf from './Sean_Tarzy_Resume.pdf'
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume, paragraphFour } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -52,7 +52,6 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphFour || 'Hobbies: Baseball, Movies, Bass Guitar, Science-Fiction'}
                 </p>
-                {resume && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -63,7 +62,6 @@ const About = () => {
                       Resume
                     </a>
                   </span>
-                )}
               </div>
             </Fade>
           </Col>

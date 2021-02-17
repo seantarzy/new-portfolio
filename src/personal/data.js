@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo: 'Languages: Javascript, Ruby, SQL, HTML5, CSS3',
   paragraphThree: 'Education: Binghamton University, Flatiron School',
   paragraphFour: 'Hobbies: Baseball, Movies, Bass Guitar, Science-Fiction',
-  resume: null,
+  resume: "",
 };
 
 // PROJECTS DATA
@@ -78,7 +78,7 @@ export const blogsData = [
   {
     id: nanoid(),
     img: 'sea-monster-riddle',
-    title: 'Sea Monster Tes-Ed Riddle',
+    title: 'Solving the Sea Monster Ted-Ed Riddle using Vanilla Javascript',
     info:
       'TED-Ed riddles flex the same kind of problem-solving muscles excersized in creating apps. I found that there was such a strong link between TED-Ed Riddles and coding, that I decided to bridge the gap even closer.',
     info2: '',
@@ -100,7 +100,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'https://twitter.com/home',
+      url: 'https://twitter.com/TarzySean',
     },
     {
       id: nanoid(),
