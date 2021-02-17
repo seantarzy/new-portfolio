@@ -25,7 +25,7 @@ export const aboutData = {
   paragraphTwo: 'Languages: Javascript, Ruby, SQL, HTML5, CSS3',
   paragraphThree: 'Education: Binghamton University, Flatiron School',
   paragraphFour: 'Hobbies: Baseball, Movies, Bass Guitar, Science-Fiction',
-  resume: <Resume/>, // if no resume, the button will not show up
+  resume: <Resume/>,
 };
 
 // PROJECTS DATA
