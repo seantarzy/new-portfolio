@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-
+g
 // HEAD DATA
 export const headData = {
   title: 'Sean Tarzy', // e.g: 'Name | Developer'
