@@ -97,11 +97,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: 'https://twitter.com/TarzySean',
-    // },
     {
       id: nanoid(),
       name: 'medium',
