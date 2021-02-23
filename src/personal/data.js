@@ -45,7 +45,7 @@ export const projectsData = [
     info:
       "I couldn't buy Bitcoin when I could afford it, so I decided to capitalize on the hype in other ways. A fun site to answer the million dollar question at any moment. In addition to live pricing and conversion rates, this site provides stock graphs, articles and even an item of the day! Check it out.",
     info2:
-      'Tools Used: React.js, Node.js, Puppeteer (for web scraping),     * Currently Working on this project!',
+      'Tools Used: React.js, Node.js, Puppeteer (for web scraping), ToolTip and InfoBox to create a Bitcoin stock chart  * Currently Working on this project!',
     url: 'https://whatsbitcoinsprice.com/',
 
     repo: 'https://github.com/seantarzy/bitcoin-project-frontend', // if no repo, the button will not show up
