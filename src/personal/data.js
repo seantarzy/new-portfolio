@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Sean Tarzy', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: 'Welsome to my portfolio', // e.g: Welcome to my website
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -43,7 +43,7 @@ export const projectsData = [
     img: 'bitcoin-project.jpg',
     title: "What is Bitcoin's Price?",
     info:
-      "I couldn't buy Bitcoin when I could afford it, so I decided to capitalize on the hype in other ways. A fun site to answer the million dollar question at any moment. In addition to live pricing and conversion rates, this site provides stock graphs, articles and even an item of the day! Check it out.",
+      "I couldn't buy Bitcoin when I could afford it, so I decided to capitalize on the hype in other ways. A fun site to answer the million dollar question at any moment. In addition to live pricing and conversion rates, this site provides stock graphs and more to come. Check it out!",
     info2:
       'Tools Used: React.js, Node.js, Puppeteer (for web scraping), ToolTip and InfoBox to create a Bitcoin stock chart  * Currently Working on this project!',
     url: 'https://whatsbitcoinsprice.com/',
