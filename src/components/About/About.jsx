@@ -12,7 +12,7 @@ const About = () => {
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-
+  
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true);
@@ -53,12 +53,11 @@ const About = () => {
                   {paragraphFour || 'Hobbies: Baseball, Movies, Bass Guitar, Science-Fiction'}
                 </p>
                   <span className="d-flex mt-3">
-                    <a
+                    <a 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href= {ResumePdf}
-                    >
+                      href= {ResumePdf}>
                       Resume
                     </a>
                   </span>
