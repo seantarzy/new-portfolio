@@ -4,14 +4,14 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Sean Tarzy', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: 'Welsome to my portfolio', // e.g: Welcome to my website
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
   name: 'Sean Tarzy',
-  subtitle: 'Software Engineer',
+  subtitle: 'Software Engineer @Alignable',
   cta: '',
 };
 
@@ -30,6 +30,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'babe-ruth.png',
+    title: 'War Games',
+    info:
+    "Like the card game 'War', except using baseball players and a particulair baseball statistic for the card's value. Now has Multiplayer functionality!",
+    info2: 'Tools Used: React.ts, Vite, Ruby on Rails, ActionCable, WebSockets, CSS3, HTML5, Bootstrap, Heroku, Netlify',
+    url: 'https://github.com/seantarzy/war-games-vite/',
+    repo: 'https://github.com/seantarzy/war-games-2.0-frontend', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project1.jpg',
     title: 'Mnemonic Maker',
     info:
@@ -40,6 +50,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'speed-dating.png',
+    title: 'Speed Dating ',
+    info:
+      'A simple game where you calculate the day of the week based on the date provided.',
+    info2: 'Tools Used: React.ts, Vite, CSS3, HTML5, Netlify',
+    url: 'https://main--speed-dating-calc.netlify.app/',
+    repo: 'https://github.com/seantarzy/speed-dating/tree/main'
+  },
+  {
+    id: nanoid(),
     img: 'bitcoin-project.jpg',
     title: "What is Bitcoin's Price?",
     info:
@@ -47,18 +67,8 @@ export const projectsData = [
     info2:
       'Tools Used: React.js, Node.js, Puppeteer (for web scraping), ToolTip and InfoBox to create a Bitcoin stock chart  * Currently Working on this project!',
     url: 'https://whatsbitcoinsprice.com/',
-
+  
     repo: 'https://github.com/seantarzy/bitcoin-project-frontend', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'babe-ruth.png',
-    title: 'War Games',
-    info:
-      "Like the card game 'War', except using baseball players and a particulair baseball statistic for the card's value",
-    info2: 'Tools Used: Vanilla JS, Ruby on Rails, React-Native',
-    url: 'https://mlbwargames.netlify.app/',
-    repo: 'https://github.com/seantarzy/war-games-2.0-frontend', // if no repo, the button will not show up
   },
 ];
 export const blogsData = [
